@@ -9,7 +9,12 @@ this provides some code to help you get started. More code samples are detailed 
 
 
 ##Installation
-Coming soon!
+Still a work in progress...
+
+1. (Download "brightness")[http://mattdanger.net/2008/12/adjust-mac-os-x-display-brightness-from-the-terminal/]
+2. 
+
+
 
 ##Methods
         ssh():
@@ -58,9 +63,12 @@ I do not condone this, but this can be used as a "just in case" feature in the o
 
 
 ##Todo
+      inject_cp():
+      # Detects when the user copies youtube links
+      # Replaces the copied youtube link with a random rickroll link.
 
-  inject_cp():
-  # Detects when the user copies youtube links
-  # Replaces the copied youtube link with a random rickroll link.
+      inject_keypress():
+      # Params: any unicode character.
+      # Simulates keypress of the unicode character.
 
 Feel free to suggest features at pinkoman [at] dwang.org
