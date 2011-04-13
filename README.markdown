@@ -61,7 +61,7 @@ I do not condone this, but this can be used as a "just in case" feature in the o
 
 ##Other
 Simulating keypresses is simple. You can also specify a combination of letters+shift,ctrl,option easily.
-        # A troll way of using this is during games.
+        <pre><code># A troll way of using this is during games.
         # For instance, in TF2, team chat is "y".
         # The script below spams "Please **** me in the ***!" for tf2. I don't approve of vulgar language,
         # but I'm lazy to look up keycodes and a friend wrote this for me, so here's some sample code.
@@ -71,7 +71,7 @@ Simulating keypresses is simple. You can also specify a combination of letters+s
             -e 'key code 0' -e 'key code 35' -e 'key code 14' -e 'key code 49' -e 'key code 46' -e 'key code 14' -e 'key code 49' 
             -e 'key code 34' -e 'key code 45' -e 'key code 49' -e 'key code 17' -e 'key code 4' -e 'key code 14' -e 'key code 49' 
             -e 'key code 0' -e 'key code 1' -e 'key code 1' -e 'key code 18 using {shift down}' -e 'key code 36'  -e 'end tell' -e 'end tell'
-        }
+        }</code></pre>
 
 
 Here's a good diagram of a keyboard and their corresponding keycodes (source: http://controlyourmac.com/applescript.html):
@@ -79,10 +79,10 @@ Here's a good diagram of a keyboard and their corresponding keycodes (source: ht
 
 
 You can also simulate mouse clicks without any external libraries:
-        # The above clicks at point (1, 1) on the screen. On my mac it clicked the apple logo.
+        <pre><code># The above clicks at point (1, 1) on the screen. On my mac it clicked the apple logo.
         simulate_mouseclick() {
         sudo osascript -e 'tell application "System Events" to tell process "Terminal" to click at {1,1}'
-        }
+        }</pre></code>
         
 
 ##Todo
