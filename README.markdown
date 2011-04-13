@@ -80,8 +80,7 @@ Here's a good diagram of a keyboard and their corresponding keycodes (source: ht
 
 
 You can also simulate mouse clicks without any external libraries:
-<pre><code>
-    # The above clicks at point (1, 1) on the screen. On my mac it clicked the apple logo.
+<pre><code>    # The above clicks at point (1, 1) on the screen. On my mac it clicked the apple logo.
     simulate_mouseclick() {
         sudo osascript -e 'tell application "System Events" to tell process "Terminal" to click at {1,1}'
     }
