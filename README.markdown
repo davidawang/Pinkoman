@@ -75,7 +75,7 @@ Simulating keypresses is simple. You can also specify a combination of letters+s
    }</code></pre>
 
 
-Here's a good diagram of a keyboard and their corresponding keycodes (source: http://controlyourmac.com/applescript.html):
+Here's a good diagram of a keyboard and their corresponding keycodes [http://controlyourmac.com/applescript.html](http://controlyourmac.com/applescript.htm):
         <img src="http://public.dwang.org/github/pinkoman/keycode.png" width="800px" height="300px">
 
 
